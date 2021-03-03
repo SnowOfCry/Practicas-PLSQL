@@ -1,6 +1,13 @@
 SET SERVEROUTPUT ON
 
 /*
+    Uso de Cursores y cursores con parametros
+    
+    SCHEMA usado: HR
+*/
+
+
+/*
     1-Se tiene un cursor que  visualiza los salarios de los empleados. 
     Si en el cursor aparece el jefe (Steven King) se  genera un RAISE_APPLICATION_ERROR 
     indicando que el sueldo del jefe no se puede ver.
