@@ -47,7 +47,7 @@ pero se hace de esta manera para probar parámetros en cursores)
 */
 
 DECLARE
-    depart departments%rowtype;
+    
     CURSOR empleados IS
     SELECT
         *
@@ -63,6 +63,9 @@ DECLARE
         departments
     WHERE
         manager_id = m_id;
+
+    --Se puede declarar un record del tipo de cursor que acabamos de crear
+    depart empleados%rowtype;
 
 BEGIN
     FOR i IN empleados LOOP
