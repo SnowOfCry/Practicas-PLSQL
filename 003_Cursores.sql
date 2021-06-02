@@ -97,7 +97,7 @@ END;
 /
 
 /* 
-   3- Se cre un cursor con parámetros,pasando el número de departamento 
+   3- Se crea un cursor con parámetros,pasando el número de departamento 
    visualizando el número de empleados de ese departamento
 
 
